@@ -1,6 +1,6 @@
 <?php
 
-$TOKEN = "5451838957:AAHNFP8voDQFvkbJRxuIeLqpGlFXSdTQ0Wc";
+$TOKEN = "5998037271:AAERa3tN_0xV-_pH32lzOFoipD2W4dJ0k1Y";
 echo file_get_contents("https://api.telegram.org/bot$TOKEN/setwebhook?url=" . $_SERVER['SERVER_NAME'] . "" . $_SERVER['SCRIPT_NAME']);
 
 
